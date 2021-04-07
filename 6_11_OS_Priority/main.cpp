@@ -4,7 +4,7 @@ using namespace std::chrono;
 
 DigitalOut led1(LED1);
 DigitalOut led2(LED2);
-InterruptIn btn(USER_BUTTON);
+InterruptIn btn(USER_BUTTON);// test
 
 EventQueue printfQueue;
 EventQueue eventQueue;
